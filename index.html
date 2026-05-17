@@ -3,10 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>诗歌集</title>
+    <title>诗集 · 窗冥</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: white;
+            font-family: 'Courier New', 'SF Mono', '宋体', monospace;
+            color: #111;
+            line-height: 1.45;
+            padding: 2rem 1rem;
+        }
+        .box {
+            max-width: 700px;
+            margin: 0 auto;
+            border: 1px solid #aaa;
+            padding: 2rem 1.5rem;
+            background: #fff;
+        }
+        .name {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+            border-bottom: 2px solid #222;
+            display: inline-block;
+            margin-bottom: 0.25rem;
+        }
+
+        .tagline {
+            font-size: 0.8rem;
+            color: #2b2b2b;
+            margin-top: 6px;
+            margin-bottom: 1.8rem;
+            border-left: 2px solid #aaa;
+            padding-left: 10px;
+        }
+        .group-title {
+            font-weight: 700;
+            font-size: 1rem;
+            margin: 1.2rem 0 1rem 0;
+            background: #ececec;
+            display: inline-block;
+            padding: 2px 8px;
+            letter-spacing: -0.2px;
+        }
+        .poems-list {
+            list-style: none;
+            margin: 0.5rem 0 0 0;
+        }
+
+        .poems-list li {
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .poems-list a {
+            display: block;
+            text-decoration: none;
+            color: #0000cc;
+            font-size: 1rem;
+            font-weight: 500;
+            font-family: inherit;
+        }
+
+        .poems-list a:hover {
+            text-decoration: underline;
+            background: #f0f0f0;
+        }
+        .back-link {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #ccc;
+            font-size: 0.8rem;
+        }
+
+        .back-link a {
+            color: #0000aa;
+            text-decoration: none;
+            border-bottom: 1px dotted #aaa;
+        }
+
+        .back-link a:hover {
+            background: #eee;
+            text-decoration: underline;
+        }
+        .footer-note {
+            margin-top: 1.5rem;
+            font-size: 0.65rem;
+            text-align: center;
+            color: #8a8a8a;
+        }
+    </style>
 </head>
 <body>
-    <a href="/poems/moyan.pdf">《默言》</a>
-    <a href="/poems/yinghei.pdf">《荧黑》</a>
+<div class="box">
+    <div class="name">JonathanZhang0813</div>
+    <div class="tagline">/ 诗集</div>
+    <div class="group-title">■ 收录</div>
+    <ul class="poems-list">
+        <li><a href="/poems/moyan.pdf" target="_blank">《默言》</a></li>
+        <li><a href="/poems/yinghei.pdf" target="_blank">《荧黑》</a></li>
+    </ul>
+    <div class="footer-note">
+        &nbsp;
+    </div>
+</div>
 </body>
 </html>
